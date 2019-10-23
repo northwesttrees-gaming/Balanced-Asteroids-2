@@ -1,7 +1,7 @@
 [
 {
 "op" : "add",
-"path" : "/baiigentleasteroid",
+"path" : "/ba2gentleasteroid",
 "value" : [ 
     [0.70, "clear"],
     [0.20, "glowingrain"],
@@ -10,7 +10,7 @@
 },
 {
 "op" : "add",
-"path" : "/baiitemperateasteroid",
+"path" : "/ba2temperateasteroid",
 "value" : [ 
     [0.70, "clear"],
     [0.20, "drizzle"],
