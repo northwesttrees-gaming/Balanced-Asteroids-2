@@ -1,0 +1,20 @@
+[
+{
+"op" : "add",
+"path" : "/baiigentleasteroid",
+"value" : [ 
+    [0.70, "clear"],
+    [0.20, "glowingrain"],
+    [0.10, "windstorm"]
+  ]
+},
+{
+"op" : "add",
+"path" : "/baiitemperateasteroid",
+"value" : [ 
+    [0.70, "clear"],
+    [0.20, "drizzle"],
+    [0.10, "duststorm"]
+  ]
+}
+]

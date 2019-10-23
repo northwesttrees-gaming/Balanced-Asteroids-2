@@ -1,0 +1,37 @@
+[
+    {
+    "op" : "add",
+        "path" : "/visitableTypeDescription/ba2gentleasteroid",
+        "value" : [ "^#76fe68;Gentle Asteroids ^white;have foothills and settlements. Very little flora and fauna are here. Minerals are abundant here." ]
+    },
+
+    {
+    "op" : "add",
+        "path" : "/planetTypeNames/ba2gentleasteroid",
+        "value" : "White Asteroid"
+    },
+
+    {
+    "op" : "add",
+    "path" : "/planetTypeColors/ba2gentleasteroid",
+    "value" : [118, 254, 104]
+    },
+
+    {
+    "op" : "add",
+        "path" : "/visitableTypeDescription/ba2temperateasteroid",
+        "value" : [ "^#ffe21d;Temperate Asteroids ^white;has a barren landscape, and some settlements. Very little flora and fauna are here. Minerals are abundant here." ]
+    },
+
+    {
+    "op" : "add",
+        "path" : "/planetTypeNames/ba2temperateasteroid",
+        "value" : "Orange Asteroid"
+    },
+
+    {
+    "op" : "add", 
+    "path" : "/planetTypeColors/ba2temperateasteroid",
+    "value" : [255, 117, 6]
+    }
+]
