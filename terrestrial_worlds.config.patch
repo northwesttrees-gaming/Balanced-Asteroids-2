@@ -1,211 +1,198 @@
 [
-    {
-    "op" : "add",
-    "path" : "/planetTypes/ba2gentleasteroid",
-    "value" : {
-        "threatRange" : [1, 1],
-        "layers" : {
-            "surface" : {
-                "primaryRegion" : [ "ba2gentleasteroid" ],
-                    "dungeons" : [
-                        [1.0, "humanprison"],
-                        [1.0, "humancamp"]
-                    ]
-            },
-            "subsurface" : { "primaryRegion" : [ "ba2gentleasteroidunderground0" ] },
-            "underground1" : { "primaryRegion" : [ "ba2gentleasteroidunderground1" ] },
-            "underground2" : { "primaryRegion" : [ "ba2gentleasteroidunderground3" ] },
-            "underground3" : { "primaryRegion" : [ "ba2gentleasteroidunderground5" ] },
-            "core" : { "primaryRegion" : [ "ba2gentleasteroidcorelayer" ] }
-        }
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2gentleasteroid",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2gentleasteroid" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2gentleasteroidunderground0",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2gentleasteroidunderground0" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2gentleasteroidunderground1",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2gentleasteroidunderground1" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2gentleasteroidunderground3",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2gentleasteroidunderground3" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2gentleasteroidunderground5",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2gentleasteroidunderground5" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2gentleasteroidcorelayer",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2gentleasteroidcorelayer" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/planetTypes/ba2temperateasteroid",
-    "value" : {
-        "threatRange" : [2, 2],
-        "layers" : {
-            "surface" : {
-                "primaryRegion" : [ "ba2temperateasteroid" ],
-                "dungeons" : [
-                    [1.0, "hylotlruinedcastle"],
-                    [1.0, "hylotlcity"]
-                ]
-            },
-            "subsurface" : { "primaryRegion" : [ "ba2temperateasteroidunderground0" ] },
-            "underground1" : { "primaryRegion" : [ "ba2temperateasteroidunderground1" ] },
-            "underground2" : { "primaryRegion" : [ "ba2temperateasteroidunderground3" ] },
-            "underground3" : { "primaryRegion" : [ "ba2temperateasteroidunderground5" ] },
-            "core" : { "primaryRegion" : [ "ba2temperateasteroidcorelayer" ] }
-        }
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2temperateasteroid",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2temperateasteroid" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2temperateasteroidunderground0",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2temperateasteroidunderground0" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2temperateasteroidunderground1",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2temperateasteroidunderground1" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2temperateasteroidunderground3",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2temperateasteroidunderground3" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2temperateasteroidunderground5",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2temperateasteroidunderground5" ]]
-        ]
-    }},
-
-    {
-    "op" : "add",
-    "path" : "/regionTypes/ba2temperateasteroidcorelayer",
-    "value" : {
-        "blockSelector" : [ "remixedMildSurface" ],
-        "fgCaveSelector" : [ "surfaceCaves" ],
-        "bgCaveSelector" : [ "surfaceCaves" ],
-        "fgOreSelector" : ["largeClumps"],
-        "bgOreSelector" : ["largeClumps"],
-        "biome" : [
-            [0, [ "ba2temperateasteroidcorelayer" ]]
-        ]
-    }}
+{
+"op" : "add",
+"path" : "/planetTypes/ba2gentleasteroid",
+"value" : {
+    "threatRange" : [1, 1],
+    "layers" : {
+        "surface" : {
+            "primaryRegion" : [ "ba2gentleasteroid" ],
+            "dungeons" : [
+                [1.0, "humanprison"],
+                [1.0, "humancamp"]
+            ]
+        },
+        "subsurface" : { "primaryRegion" : [ "ba2gentleasteroidunderground0" ] },
+        "underground1" : { "primaryRegion" : [ "ba2gentleasteroidunderground1" ] },
+        "underground2" : { "primaryRegion" : [ "ba2gentleasteroidunderground3" ] },
+        "underground3" : { "primaryRegion" : [ "ba2gentleasteroidunderground5" ] },
+        "core" : { "primaryRegion" : [ "ba2gentleasteroidcorelayer" ] }
+}
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2gentleasteroid",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2gentleasteroid" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2gentleasteroidunderground0",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2gentleasteroidunderground0" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2gentleasteroidunderground1",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2gentleasteroidunderground1" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2gentleasteroidunderground3",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2gentleasteroidunderground3" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2gentleasteroidunderground5",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2gentleasteroidunderground5" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2gentleasteroidcorelayer",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2gentleasteroidcorelayer" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/planetTypes/ba2temperateasteroid",
+"value" : {
+    "threatRange" : [2, 2],
+    "layers" : {
+        "surface" : {
+            "primaryRegion" : [ "ba2temperateasteroid" ],
+            "dungeons" : [
+                [1.0, "hylotlruinedcastle"],
+                [1.0, "hylotlcity"]
+            ]
+        },
+        "subsurface" : { "primaryRegion" : [ "ba2temperateasteroidunderground0" ] },
+        "underground1" : { "primaryRegion" : [ "ba2temperateasteroidunderground1" ] },
+        "underground2" : { "primaryRegion" : [ "ba2temperateasteroidunderground3" ] },
+        "underground3" : { "primaryRegion" : [ "ba2temperateasteroidunderground5" ] },
+        "core" : { "primaryRegion" : [ "ba2temperateasteroidcorelayer" ] }
+}
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2temperateasteroid",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2temperateasteroid" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2temperateasteroidunderground0",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2temperateasteroidunderground0" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2temperateasteroidunderground1",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2temperateasteroidunderground1" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2temperateasteroidunderground3",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2temperateasteroidunderground3" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2temperateasteroidunderground5",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2temperateasteroidunderground5" ]]
+    ]
+}},
+{
+"op" : "add",
+"path" : "/regionTypes/ba2temperateasteroidcorelayer",
+"value" : {
+    "blockSelector" : [ "remixedMildSurface" ],
+    "fgCaveSelector" : [ "surfaceCaves" ],
+    "bgCaveSelector" : [ "surfaceCaves" ],
+    "fgOreSelector" : ["largeClumps"],
+    "bgOreSelector" : ["largeClumps"],
+    "biome" : [
+        [0, [ "ba2temperateasteroidcorelayer" ]]
+    ]
+}}
 ]
