@@ -1,34 +1,35 @@
 {
-  "name" : "ba2gentleasteroidcorelayer",
-  "friendlyName" : "Gentle Asteroid Core Layer",
+"name" : "ba2gentleasteroidcorelayer",
+"friendlyName" : "Gentle Asteroid Core",
 
-  "parallax" : "/parallax/underground/magmarockunderground.parallax",
+"parallax" : "/parallax/underground/magmarockunderground.parallax",
+"hueShiftOptions" : [0],
 
-  "mainBlock" : "obsidian",
-  "subBlocks" : [ "obsidian" ],
-  "ores" : "ba2_gentlecore",
+"mainBlock" : "obsidian",
+"subBlocks" : [ "obsidian" ],
+"ores" : "ba2_gentlecore",
 
-  "ambientNoises" : {
+"ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+        "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+        "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
     }
-  },
+},
 
-  "musicTrack" : {
+"musicTrack" : {
     "day" : {
-      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+        "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+        "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
     }
-  },
+},
 
-  "undergroundPlaceables" : {
+"undergroundPlaceables" : {
     "items" : [
-      {
+    {
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
@@ -41,8 +42,8 @@
             "parameters" : { }
           }
         ]
-      },
-      {
+    },
+    {
         "mode" : "floor",
         "priority" : 1.0,
         "variants" : 1,
@@ -139,7 +140,5 @@
         "treasureBoxSets" : [ "weaponChest" ]
       }
     ]
-  },
-
-  "hueShiftOptions" : [0]
+  }
 }
