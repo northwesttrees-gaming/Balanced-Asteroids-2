@@ -41,7 +41,7 @@
   "subBlocks" : [ "magmarock", "ash" ],
   "ores" : "ba2_temperatesurface",
 
-  "parallax" : "/parallax/surface/asteroids.parallax",
+  "parallax" : "/parallax/space/asteroids.parallax",
 
   "ambientNoises" : {
     "day" : {
