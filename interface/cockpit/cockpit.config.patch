@@ -2,7 +2,7 @@
 {
 "op" : "add",
 "path" : "/visitableTypeDescription/ba2gentleasteroid",
-"value" : [ "^white;This ^#81C5CC;Gentle Asteroids ^white;has signs of human settlements. Not much grows here, but minerals are rich here." ]
+"value" : [ "^white;This ^#405330;Gentle Asteroid ^white;has signs of human settlements and life. Minerals are rich here." ]
 },
 {
 "op" : "add",
@@ -12,12 +12,12 @@
 {
 "op" : "add",
 "path" : "/planetTypeColors/ba2gentleasteroid",
-"value" : [129, 197, 204]
+"value" : [64, 83, 48]
 },
 {
 "op" : "add",
 "path" : "/visitableTypeDescription/ba2temperateasteroid",
-"value" : [ "^white;This ^#FF7506;Temperate Asteroids ^white;is a barren wasteland with what looks to be some settlements. There is very little life on this rock, but minerals are abundant here." ]
+"value" : [ "^white;This ^#D1CC87;Temperate Asteroid ^white;has what looks to be hylotl settlements. There is some life, but minerals are the most abundant here." ]
 },
 {
 "op" : "add",
@@ -27,6 +27,51 @@
 {
 "op" : "add",
 "path" : "/planetTypeColors/ba2temperateasteroid",
-"value" : [255, 117, 6]
+"value" : [209, 204, 135]
+},
+{
+"op" : "add",
+"path" : "/visitableTypeDescription/ba2radioactiveasteroid",
+"value" : [ "^white;This ^#86CA3A;Radioactive Asteroid ^white;has some Avian settlements. Life is common, but minerals are the most sufficient here." ]
+},
+{
+"op" : "add",
+"path" : "/planetTypeNames/ba2radioactiveasteroid",
+"value" : "Radioactive Asteroid"
+},
+{
+"op" : "add",
+"path" : "/planetTypeColors/ba2radioactiveasteroid",
+"value" : [134, 202, 58]
+},
+{
+"op" : "add",
+"path" : "/visitableTypeDescription/ba2frozenasteroid",
+"value" : [ "^white;This ^#2E56F5;Frozen Asteroid ^white;is a isolated with some Apex settlements. There is unsatisfactory amount of life on this asteroid, but minerals are loaded here." ]
+},
+{
+"op" : "add",
+"path" : "/planetTypeNames/ba2frozenasteroid",
+"value" : "Frozen Asteroid"
+},
+{
+"op" : "add",
+"path" : "/planetTypeColors/ba2frozenasteroid",
+"value" : [46, 86, 245]
+},
+{
+"op" : "add",
+"path" : "/visitableTypeDescription/ba2fieryasteroid",
+"value" : [ "^white;This ^#B32314;Fiery Asteroid ^white;is a arid with some Glitch and Nova Kid settlements. There is minimum amount of life on this asteroid, but minerals are extreme here." ]
+},
+{
+"op" : "add",
+"path" : "/planetTypeNames/ba2fieryasteroid",
+"value" : "Fiery Asteroid"
+},
+{
+"op" : "add",
+"path" : "/planetTypeColors/ba2fieryasteroid",
+"value" : [179, 35, 20]
 }
 ]
