@@ -16,5 +16,32 @@
     [0.20, "drizzle"],
     [0.10, "duststorm"]
   ]
+},
+{
+"op" : "add",
+"path" : "/ba2radioactiveasteroid",
+"value" : [ 
+    [0.70, "clear"],
+    [0.20, "rain"],
+    [0.10, "acidrain"]
+  ]
+},
+{
+"op" : "add",
+"path" : "/ba2frozenasteroid",
+"value" : [ 
+    [0.70, "clear"],
+    [0.20, "snow"],
+    [0.10, "snowstorm"]
+  ]
+},
+{
+"op" : "add",
+"path" : "/ba2fieryasteroid",
+"value" : [ 
+    [0.70, "clear"],
+    [0.20, "ash"],
+    [0.10, "ember"]
+  ]
 }
 ]
