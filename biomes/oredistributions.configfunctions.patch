@@ -25,21 +25,21 @@
     "op":"add",
     "path":"/ba2_gentledepth3",
     "value": [
-        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
     },
 
     {
     "op":"add",
     "path":"/ba2_gentledepth4",
     "value": [
-        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.50 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
     },
 
     {
     "op":"add",
     "path":"/ba2_gentlecore",
     "value": [
-        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.50 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
     },
 
     {
@@ -82,5 +82,133 @@
     "path":"/ba2_temperatecore",
     "value": [
         [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.50 ], [ "tungsten", 0.50 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_radioactivesurface",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_radioactivedepth1",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_radioactivedepth2",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_radioactivedepth3",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.50 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_radioactivedepth4",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.50 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_radioactivecore",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.50 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_frozensurface",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]
+    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_frozendepth1",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_frozendepth2",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_frozendepth3",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_frozendepth4",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.50 ], [ "ferozium", 0.50 ], [ "violium", 0.50 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_frozencore",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.50 ], [ "aegisalt", 0.50 ], [ "ferozium", 0.50 ], [ "violium", 0.50 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_fierysurface",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.00 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]
+    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_fierydepth1",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.00 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_fierydepth2",
+    "value": [
+        [0.5, [ [ "coal", 0.50 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.00 ], [ "ferozium", 0.00 ], [ "violium", 0.00 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_fierydepth3",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.50 ], [ "silver", 0.50 ], [ "gold", 0.50 ], [ "diamond", 0.00 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.50 ], [ "ferozium", 0.50 ], [ "violium", 0.50 ], [ "solarium", 0.00 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_fierydepth4",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.50 ], [ "ferozium", 0.50 ], [ "violium", 0.50 ], [ "solarium", 0.50 ] ] ]    ]
+    },
+
+    {
+    "op":"add",
+    "path":"/ba2_fierycore",
+    "value": [
+        [0.5, [ [ "coal", 0.00 ], [ "copper", 0.00 ], [ "silver", 0.00 ], [ "gold", 0.50 ], [ "diamond", 0.50 ], [ "corefragment", 0.00 ], [ "iron", 0.00 ], [ "tungsten", 0.00 ], [ "titanium", 0.00 ], [ "durasteel", 0.00 ], [ "aegisalt", 0.50 ], [ "ferozium", 0.50 ], [ "violium", 0.50 ], [ "solarium", 0.50 ] ] ]    ]
     }
 ]
