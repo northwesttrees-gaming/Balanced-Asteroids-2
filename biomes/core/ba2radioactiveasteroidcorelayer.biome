@@ -1,12 +1,13 @@
 {
-  "name" : "ba2temperateasteroidcorelayer",
-  "friendlyName" : "Temperate Asteroid Core",
+  "name" : "ba2radioactiveasteroidcorelayer",
+  "friendlyName" : "Radioactive Asteroid Core",
 
   "parallax" : "/parallax/underground/magmarockunderground.parallax",
+  "hueShiftOptions" : [0],
 
   "mainBlock" : "obsidian",
   "subBlocks" : [ "obsidian" ],
-  "ores" : "ba2_temperatecore",
+  "ores" : "ba2_radioactivecore",
 
   "ambientNoises" : {
     "day" : {
@@ -139,7 +140,5 @@
         "treasureBoxSets" : [ "weaponChest" ]
       }
     ]
-  },
-
-  "hueShiftOptions" : [0]
+  }
 }
