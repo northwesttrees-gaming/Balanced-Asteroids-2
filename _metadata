@@ -1,13 +1,12 @@
 {
-  "version" : "1.0",
   "author" : "NorthWestTrees",
-  "tags" : "Planets and Environments|NPCs and Creatures",
-  "requires" : [],
-  "description" : "Balanced Asteroids 2.0 is a branch off of Balanced Asteroids another mod I have made. The mod takes the same idea for ore generation but makes it so that the ore can be found on large bodies aka moons, that give us more control over the ore generation and difficulty of mining them. \n\nI have also made custom erchius bosses that have up to 1000 HP points and will have specific resistances depending on what star the moon is in. There is more than one kind of moon for every tier of stars white, orange, yellow, blue, and red. The specific types of ore found on each tier of the planet. Copper, Silver, and Gold can always be found in the Asteroid Moon bodies. \n\nFor More information you can visit our official wiki: https://sites.google.com/view/balanced-moons-wiki/home",
+  "friendlyName" : "Balanced Asteroids 2",
+  "includes" : [],
+  "link" : "steam://url/CommunityFilePage/1910612608",
   "name" : "balancedasteroidstwo",
   "priority" : -1,
-  "steamContentId" : "",
-  "friendlyName" : "Balanced Moons 2",
-  "link" : "",
-  "includes" : []
+  "requires" : [],
+  "steamContentId" : "1910612608",
+  "tags" : "Planets and Environments|NPCs and Creatures",
+  "version" : "1.0"
 }
