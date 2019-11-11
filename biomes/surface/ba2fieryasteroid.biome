@@ -2,21 +2,17 @@
   "name" : "ba2fieryasteroid",
   "friendlyName" : "Fiery Asteroid",
 
-  "statusEffects" : [ ],
+  "statusEffects" : [ "biomeheat" ],
 
   "spawnProfile" : {
     "groups" : [
       {
         "select" : 1,
         "pool" : [
-          [ 0.1111, "crustoise" ],
-          [ 0.1111, "fennix" ],
-          [ 0.1111, "crabcano" ],
-          [ 0.1111, "ignome" ],
-          [ 0.1111, "pyromantle" ],
-          [ 0.1111, "smoglin" ],
-          [ 0.1111, "scandroid" ],
-          [ 0.1111, "peblit" ]
+          [ 0.25, "fennix" ],
+          [ 0.25, "crabcano" ],
+          [ 0.25, "ignome" ],
+          [ 0.25, "pyromantle" ]
         ]
       },
       {
@@ -46,11 +42,7 @@
       {
         "select" : 2,
         "pool" : [
-          [ 1, "squeekcritter" ],
-          [ 1, "mousecritter" ],
-          [ 1, "spidercritter" ],
           [ 1, "ravencritter" ],
-          [ 1, "wurmcritter" ],
           [ 1, "vulturecritter" ],
           [ 1, "appofloatcritter" ]
         ]
@@ -93,19 +85,19 @@
 
   "ambientNoises" : {
     "day" : {
-      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+      "tracks" : [ "/sfx/environmental/arid_day.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/sfx/environmental/space_loop1.ogg" ]
+      "tracks" : [ "/sfx/environmental/arid_night.ogg" ]
     }
   },
 
   "musicTrack" : {
     "day" : {
-      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+      "tracks" : [ "/music/crystal-exploration1.ogg", "/music/drosera.ogg", "/music/inviolate-loop.ogg", "/music/lava-exploration1.ogg", "/music/ultramarine.ogg", "/music/arctic-constellation1.ogg", "/music/body-electric-loop.ogg", "/music/mercury.ogg", "/music/nomads.ogg", "/music/psyche.ogg" ]
     },
     "night" : {
-      "tracks" : [ "/music/jupiter.ogg", "/music/arctic-constellation1.ogg", "/music/arctic-constellation2.ogg", "/music/mercury.ogg", "/music/mira.ogg", "/music/procyon.ogg", "/music/tranquility-base.ogg", "/music/psyche.ogg", "/music/accretion-disc.ogg", "/music/cygnus-x1.ogg", "/music/eridanus-supervoid.ogg", "/music/horsehead-nebula.ogg", "/music/large-magellanic-cloud.ogg", "/music/m54.ogg", "/music/nomads.ogg", "/music/on-the-beach-at-night.ogg" ]
+      "tracks" : [ "/music/crystal-exploration2.ogg", "/music/desert-exploration2.ogg", "/music/lava-exploration2.ogg", "/music/mira.ogg", "/music/tranquility-base.ogg", "/music/arctic-constellation1.ogg", "/music/body-electric-loop.ogg", "/music/mercury.ogg", "/music/nomads.ogg", "/music/casiopeia.ogg" ]
     }
   },
 
