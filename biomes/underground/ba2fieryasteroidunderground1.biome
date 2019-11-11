@@ -1,18 +1,49 @@
 {
   "name" : "ba2fieryasteroidunderground1",
   "friendlyName" : "ba2fieryasteroidunderground1",
+  
+  "statusEffects" : [ "biomeheat" ],
 
   "spawnProfile" : {
     "groups" : [
       {
         "select" : 1,
-        "pool" : [ 
-          [ 1.0, "asteroidskimbus" ]
+        "pool" : [
+          [ 0.25, "crustoise" ],
+          [ 0.25, "smoglin" ],
+          [ 0.25, "scandroid" ],
+          [ 0.25, "peblit" ]
+        ]
+      },
+      {
+        "select" : 1,
+        "pool" : "generatedGroundAggroDay"
+      },
+      {
+        "select" : 3,
+        "pool" : "nightTerrors"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedGround"
+      },
+      {
+        "select" : 2,
+        "pool" : "generatedFlying"
+      },
+      {
+        "select" : 2,
+        "pool" : [
+          [ 1, "squeekcritter" ],
+          [ 1, "mousecritter" ],
+          [ 1, "spidercritter" ]
         ]
       }
-    ]
+    ],
+    "monsterParameters" : {
+      "colors" : "scorchedcity"
+    }
   },
-
   "parallax" : "/parallax/underground/underground0b.parallax",
 
   "mainBlock" : "meteoriterock",
@@ -183,5 +214,5 @@
     ]
   },
 
-  "hueShiftOptions" : [-30]
+  "hueShiftOptions" : [0]
 }
