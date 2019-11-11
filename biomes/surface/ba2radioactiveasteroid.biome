@@ -1,6 +1,8 @@
 {
   "name" : "ba2radioactiveasteroid",
   "friendlyName" : "Radioactive Asteroid",
+  
+  "statusEffects" : [ "biomeradiation" ],
 
   "spawnProfile" : {
     "groups" : [
