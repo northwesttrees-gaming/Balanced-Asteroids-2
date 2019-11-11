@@ -3,7 +3,7 @@
 "friendlyName" : "Fiety Asteroid Core",
 
 "parallax" : "/parallax/underground/magmarockunderground.parallax",
-"hueShiftOptions" : [-30],
+"hueShiftOptions" : [0],
 
 "mainBlock" : "obsidian",
 "subBlocks" : [ "obsidian" ],
