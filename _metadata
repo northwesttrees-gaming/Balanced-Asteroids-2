@@ -1,7 +1,7 @@
 {
   "author" : "NorthWestTrees",
   "friendlyName" : "Balanced Asteroids 2",
-  "includes" : [],
+  "includes" : ["TrueSpace"],
   "link" : "steam://url/CommunityFilePage/1910612608",
   "name" : "balancedasteroidstwo",
   "priority" : -1,
