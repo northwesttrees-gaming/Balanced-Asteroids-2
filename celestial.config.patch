@@ -1,166 +1,659 @@
 [
-{
-"op" : "add",
-"path" : "/terrestrialHorizonGraphics/ba2gentleasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/horizon/textures/ba2gentleasteroid_<selector>.png",
-    "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-    "liquidTextures" : "/celestial/system/terrestrial/horizon/liquids/ba2gentleasteroid_<selector>.png",
-    "maskRange" : [1, 25],
-    "maskPerPlanetRange" : [3, 3]
+  [
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/ba2gentleasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/horizon/textures/ba2gentleasteroid_<selector>.png",
+        "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "liquidTextures": "/celestial/system/terrestrial/horizon/liquids/ba2gentleasteroid_<selector>.png",
+        "maskRange": [1,25],
+        "maskPerPlanetRange": [3,3]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/ba2gentleasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/biomes/ba2gentleasteroid/maskie<num>.png",
+        "dynamicsImages": "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
+        "dynamicsRange": [1,30]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Ba2GentleAsteroid",
+      "value": {
+        "satelliteProbability": 1,
+        "maxSatelliteCount": 1,
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Gentle Asteroid Tier",
+          "smallImage": "/celestial/system/planet_small.png",
+          "terrestrialType": [
+            "ba2gentleasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.1,
+            "smallImageScale": 0.5,
+            "worldSize": "small"
+          },
+          {
+            "imageScale": 0.125,
+            "smallImageScale": 0.6,
+            "worldSize": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/Ba2GentleAsteroid",
+      "value": {
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Gentle Asteroid Moon",
+          "terrestrialType": [
+            "ba2gentleasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.06,
+            "worldSize": "small"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2GentleAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.001,
+        "item": "Ba2GentleAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.002,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2GentleAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2GentleAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/White/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/ba2temperateasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/horizon/textures/ba2temperateasteroid_<selector>.png",
+        "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "liquidTextures": "/celestial/system/terrestrial/horizon/liquids/ba2temperateasteroid_<selector>.png",
+        "maskRange": [1,25],
+        "maskPerPlanetRange": [3,3]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/ba2temperateasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/biomes/ba2temperateasteroid/maskie<num>.png",
+        "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange": [1,50]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Ba2TemperateAsteroid",
+      "value": {
+        "satelliteProbability": 1,
+        "maxSatelliteCount": 1,
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Temperate Asteroid Tier",
+          "smallImage": "/celestial/system/planet_small.png",
+          "terrestrialType": [
+            "ba2temperateasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.1,
+            "smallImageScale": 0.5,
+            "worldSize": "small"
+          },
+          {
+            "imageScale": 0.125,
+            "smallImageScale": 0.6,
+            "worldSize": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/Ba2TemperateAsteroid",
+      "value": {
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Temperate Asteroid Moon",
+          "terrestrialType": [
+            "ba2temperateasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.06,
+            "worldSize": "small"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.001,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.002,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2TemperateAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Orange/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/ba2radioactiveasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/horizon/textures/ba2radioactiveasteroid_<selector>.png",
+        "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "liquidTextures": "/celestial/system/terrestrial/horizon/liquids/ba2radioactiveasteroid_<selector>.png",
+        "maskRange": [1,25],
+        "maskPerPlanetRange": [3,3]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/ba2radioactiveasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/biomes/ba2radioactiveasteroid/maskie<num>.png",
+        "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange": [1,50]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Ba2RadioactiveAsteroid",
+      "value": {
+        "satelliteProbability": 1,
+        "maxSatelliteCount": 1,
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Temperate Asteroid Tier",
+          "smallImage": "/celestial/system/planet_small.png",
+          "terrestrialType": [
+            "ba2radioactiveasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.1,
+            "smallImageScale": 0.5,
+            "worldSize": "small"
+          },
+          {
+            "imageScale": 0.125,
+            "smallImageScale": 0.6,
+            "worldSize": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/Ba2RadioactiveAsteroid",
+      "value": {
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Temperate Asteroid Moon",
+          "terrestrialType": [
+            "ba2radioactiveasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.06,
+            "worldSize": "small"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.001,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.002,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2RadioactiveAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Yellow/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/ba2frozenasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/horizon/textures/ba2frozenasteroid_<selector>.png",
+        "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "liquidTextures": "/celestial/system/terrestrial/horizon/liquids/ba2frozenasteroid_<selector>.png",
+        "maskRange": [1,25],
+        "maskPerPlanetRange": [3,3]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/ba2frozenasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/biomes/ba2frozenasteroid/maskie<num>.png",
+        "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange": [1,50]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Ba2FrozenAsteroid",
+      "value": {
+        "satelliteProbability": 1,
+        "maxSatelliteCount": 1,
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Temperate Asteroid Tier",
+          "smallImage": "/celestial/system/planet_small.png",
+          "terrestrialType": [
+            "ba2frozenasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.1,
+            "smallImageScale": 0.5,
+            "worldSize": "small"
+          },
+          {
+            "imageScale": 0.125,
+            "smallImageScale": 0.6,
+            "worldSize": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/Ba2FrozenAsteroid",
+      "value": {
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Temperate Asteroid Moon",
+          "terrestrialType": [
+            "ba2frozenasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.06,
+            "worldSize": "small"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2FieryAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.001,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.002,
+        "item": "Ba2FieryAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2FieryAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2FrozenAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Blue/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.005,
+        "item": "Ba2FieryAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialHorizonGraphics/ba2fieryasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/horizon/textures/ba2fieryasteroid_<selector>.png",
+        "maskTextures": "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
+        "liquidTextures": "/celestial/system/terrestrial/horizon/liquids/ba2fieryasteroid_<selector>.png",
+        "maskRange": [1,25],
+        "maskPerPlanetRange": [3,3]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/terrestrialGraphics/ba2fieryasteroid",
+      "value": {
+        "baseImages": "/celestial/system/terrestrial/biomes/ba2fieryasteroid/maskie<num>.png",
+        "dynamicsImages": "/celestial/system/terrestrial/dynamics/arid/<num>.png",
+        "dynamicsRange": [1,50]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/planetaryTypes/Ba2FieryAsteroid",
+      "value": {
+        "satelliteProbability": 1,
+        "maxSatelliteCount": 1,
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Temperate Asteroid Tier",
+          "smallImage": "/celestial/system/planet_small.png",
+          "terrestrialType": [
+            "ba2fieryasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.1,
+            "smallImageScale": 0.5,
+            "worldSize": "small"
+          },
+          {
+            "imageScale": 0.125,
+            "smallImageScale": 0.6,
+            "worldSize": "medium"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/Ba2FieryAsteroid",
+      "value": {
+        "baseParameters": {
+          "worldType": "Terrestrial",
+          "description": "Fiery Asteroid Moon",
+          "terrestrialType": [
+            "ba2fieryasteroid"
+          ]
+        },
+        "variationParameters": [
+          {
+            "imageScale": 0.06,
+            "worldSize": "small"
+          }
+        ]
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/0/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2FieryAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/1/satelliteTypes/-",
+      "value": {
+        "weight": 0.001,
+        "item": "Ba2FieryAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/2/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2FieryAsteroid"
+      }
+    },
+    {
+      "op": "add",
+      "path": "/systemTypes/Red/orbitRegions/3/satelliteTypes/-",
+      "value": {
+        "weight": 0.0025,
+        "item": "Ba2FieryAsteroid"
+      }
     }
-},
-{
-"op" : "add",
-"path" : "/terrestrialGraphics/ba2gentleasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ba2gentleasteroid/maskie<num>.png",
-    "dynamicsImages" : "/celestial/system/terrestrial/dynamics/temperate/<num>.png",
-    "dynamicsRange" : [1, 30]
+  ],
+  [
+    {
+      "inverse": false,
+      "op": "test",
+      "path": "/systemTypes/ClassMStar"
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/MildNSat/baseParameters/terrestrialType/-",
+      "value": "ba2gentleasteroid"
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/WarmNSat/baseParameters/terrestrialType/-",
+      "value": "ba2temperateasteroid"
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/WarmNSat/baseParameters/terrestrialType/-",
+      "value": "ba2radioactiveasteroid"
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/FrostyNSat/baseParameters/terrestrialType/-",
+      "value": "ba2frozenasteroid"
+    },
+    {
+      "op": "add",
+      "path": "/satelliteTypes/HotNSat/baseParameters/terrestrialType/-",
+      "value": "ba2fieryasteroid"
     }
-},
-{
-"op" : "add",
-"path" : "/planetaryTypes/Tier1/baseParameters/terrestrialType/-",
-"value" : "ba2gentleasteroid"
-},
-{
-"op" : "add",
-"path" : "/satelliteTypes/Tier1/baseParameters/terrestrialType/-",
-"value" : "ba2gentleasteroid"
-},
-{
-"op" : "add",
-"path" : "/planetaryTypes/Tier2/baseParameters/terrestrialType/-",
-"value" : "ba2gentleasteroid"
-},
-{
-"op" : "add",
-"path" : "/satelliteTypes/Tier2/baseParameters/terrestrialType/-",
-"value" : "ba2gentleasteroid"
-},
-
-{
-"op" : "add",
-"path" : "/terrestrialHorizonGraphics/ba2temperateasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/horizon/textures/ba2temperateasteroid_<selector>.png",
-    "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-    "liquidTextures" : "/celestial/system/terrestrial/horizon/liquids/ba2temperateasteroid_<selector>.png",
-    "maskRange" : [1, 25],
-    "maskPerPlanetRange" : [3, 3]
-    } 
-},
-{
-"op" : "add",
-"path" : "/terrestrialGraphics/ba2temperateasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ba2temperateasteroid/maskie<num>.png",
-    "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
-    "dynamicsRange" : [1, 50]
-    }
-},
-{
-"op" : "add",
-"path" : "/planetaryTypes/Tier3/baseParameters/terrestrialType/-",
-"value" : "ba2temperateasteroid"
-},
-{
-"op" : "add",
-"path" : "/satelliteTypes/Tier3/baseParameters/terrestrialType/-",
-"value" : "ba2temperateasteroid"
-},
-
-{
-"op" : "add",
-"path" : "/terrestrialHorizonGraphics/ba2radioactiveasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/horizon/textures/ba2radioactiveasteroid_<selector>.png",
-    "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-    "liquidTextures" : "/celestial/system/terrestrial/horizon/liquids/ba2radioactiveasteroid_<selector>.png",
-    "maskRange" : [1, 25],
-    "maskPerPlanetRange" : [3, 3]
-    } 
-},
-{
-"op" : "add",
-"path" : "/terrestrialGraphics/ba2radioactiveasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ba2radioactiveasteroid/maskie<num>.png",
-    "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
-    "dynamicsRange" : [1, 50]
-    }
-},
-{
-"op" : "add",
-"path" : "/planetaryTypes/Tier4/baseParameters/terrestrialType/-",
-"value" : "ba2radioactiveasteroid"
-},
-{
-"op" : "add",
-"path" : "/satelliteTypes/Tier4/baseParameters/terrestrialType/-",
-"value" : "ba2radioactiveasteroid"
-},
-
-{
-"op" : "add",
-"path" : "/terrestrialHorizonGraphics/ba2frozenasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/horizon/textures/ba2frozenasteroid_<selector>.png",
-    "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-    "liquidTextures" : "/celestial/system/terrestrial/horizon/liquids/ba2frozenasteroid_<selector>.png",
-    "maskRange" : [1, 25],
-    "maskPerPlanetRange" : [3, 3]
-    } 
-},
-{
-"op" : "add",
-"path" : "/terrestrialGraphics/ba2frozenasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ba2frozenasteroid/maskie<num>.png",
-    "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
-    "dynamicsRange" : [1, 50]
-    }
-},
-{
-"op" : "add",
-"path" : "/planetaryTypes/Tier5/baseParameters/terrestrialType/-",
-"value" : "ba2frozenasteroid"
-},
-{
-"op" : "add",
-"path" : "/satelliteTypes/Tier5/baseParameters/terrestrialType/-",
-"value" : "ba2frozenasteroid"
-},
-
-{
-"op" : "add",
-"path" : "/terrestrialHorizonGraphics/ba2fieryasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/horizon/textures/ba2fieryasteroid_<selector>.png",
-    "maskTextures" : "/celestial/system/terrestrial/horizon/masks/temperate/<mask>_<selector>.png",
-    "liquidTextures" : "/celestial/system/terrestrial/horizon/liquids/ba2fieryasteroid_<selector>.png",
-    "maskRange" : [1, 25],
-    "maskPerPlanetRange" : [3, 3]
-    } 
-},
-{
-"op" : "add",
-"path" : "/terrestrialGraphics/ba2fieryasteroid",
-"value" : {
-    "baseImages" : "/celestial/system/terrestrial/biomes/ba2fieryasteroid/maskie<num>.png",
-    "dynamicsImages" : "/celestial/system/terrestrial/dynamics/arid/<num>.png",
-    "dynamicsRange" : [1, 50]
-    }
-},
-{
-"op" : "add",
-"path" : "/planetaryTypes/Tier6/baseParameters/terrestrialType/-",
-"value" : "ba2fieryasteroid"
-},
-{
-"op" : "add",
-"path" : "/satelliteTypes/Tier6/baseParameters/terrestrialType/-",
-"value" : "ba2fieryasteroid"
-}
+  ]
 ]
